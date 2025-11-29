@@ -1,0 +1,135 @@
+
+body{
+    display: flex;
+    background-color: rgb(241, 239, 233);
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: o;
+    height: 150vh;
+}
+.wrapper{
+    background-color: #eee3b2;
+height: 550px;
+width: 450px;
+border-radius: 6px;
+box-shadow: 0 5px 10px black;
+
+
+
+}
+.wrapper h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    box-shadow: 0 5px 10px;
+    width: 230px;
+    text-align: center;
+    border-top: none;
+    border-radius: 6px;
+    
+}
+.input-box input{
+ width: 350px;
+ height: 40px;
+ margin-left: 20px;
+ margin-bottom: 10px;
+ border-radius: 20px;
+ padding-left: 10px;
+ border-style: none;
+
+
+}
+.input-box input:hover{
+box-shadow: 0 5px 10px;
+transform: scale(1.05);
+transition-duration: 0.5s;
+border-style: none;
+}
+.input-box input:active{
+    border-style: none;
+}
+.policy{
+display: flex;
+gap: 10px;
+margin-left: 15px;
+
+}
+.button input{
+    color: white;
+    background-color: rgb(25, 25, 24);
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.button input:hover{
+
+}
+
+
+
+
+/*
+
+/* } */
+/* .wrapper form .input-box{ */
+    /* margin: 18px 0; */
+    /* height: 52px; */
+/* } */
+/* form .input-box input { */
+    /* outline: none; */
+    /* padding: 0 15px; */
+    /* color: cadetblue; */
+    /* font-size: 17px; */
+    /* font-weight: 400px; */
+    /* border: 1.5 solid #c7bebe; */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* border-bottom-width: 2.5px; */
+    /* border-radius: 6px; */
+    /* transition: all 0.3s ease; */
+/* } */
+/* .input-box input:focus, */
+/* .input-box input:valid{ */
+    /* border-color: rgb(223, 51, 79); */
+/* } */
+/* form .policy { */
+    /* display: flex; */
+    /* align-items: center; */
+
+/* } */
+/* form h3{ */
+    /* font-size: 14px; */
+    /* font-weight: 500; */
+    /* color: cornflowerblue; */
+    /* margin-left: 10px; */
+/*      */
+/* } */
+/* .input-box button input{ */
+    /* color: aliceblue; */
+    /* border: none; */
+    /* background: red; */
+    /* letter-spacing: 1px; */
+    /* cursor: pointer; */
+
+/* } */
+/* .input-box button input:hover{ */
+    /* background: rgb(252, 61, 93); */
+/*      */
+/* }  */
+/* form .text h3{ */
+/* width: 100%; */
+/* color: #333; */
+/* text-align: center; */
+
+/* } */
+/* form .text h3 a{ */
+    /* text-decoration: none; */
+    /* color: rgb(201, 50, 76); */
+/* } */
+/* form .text h3 a:hover{ */
+    /* text-decoration: underline; */
+
+/* } */ */ */

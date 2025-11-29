@@ -1,0 +1,38 @@
+
+body{
+margin-top: 100px;
+background-image: url(backgrounimg.png);
+}
+
+
+
+.hero{
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.pa{
+display: flex;
+gap: 20px;
+}
+.active{
+    color: rgb(18, 18, 20);
+    border-bottom: 5px;
+    text-decoration: underline;
+    transform: scaleX(1.5);
+    transition-duration: 1s;
+    font-size: larger;
+}
+.busines{
+    
+    border-radius: 20px;
+    height: 180px;
+    display: flex;
+    gap: 50px;
+}
+.busines img{
+     width: 180px;
+ height: 180px;
+}

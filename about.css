@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(grey-laptop-with-white-stationery.jpg);
+    background-size: cover;
+}
+
+
+
+header{
+ display: flex;
+ background-color: antiquewhite;
+ top: 0;
+ left: 0;
+ width: 100%;
+ position:fixed ;
+ height: 80px;
+ border-radius: 20px;
+ z-index: 1000;
+ 
+
+}
+.divon{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+display: flex;
+gap: 40px;
+margin-left: 250px;
+font-size: 20px;
+text-decoration: none;
+}
+nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration:none ;
+    color: black;
+}
+nav ul li:active{
+    background-color: aquamarine;
+}
+nav ul li a:hover{
+   color: rgb(33, 20, 215);
+    text-decoration: underline 2px ;
+    text-underline-offset: 4px;
+    transition: 5s ease;
+
+    border-radius: 40%;
+    transform: scaleX(1.5);
+    transition-duration: 1s;
+    font-size: larger;
+    
+   
+}
+.about{
+    color: rgb(8, 7, 7);
+    font-size: 20px;
+    margin-top: 80px;
+    background-color: rgb(233, 230, 230);
+    height: 180vh;
+
+ }
+
+.pp1 {
+    margin-right: 650px;
+    margin-left: 20px;
+    background-color:white;
+    width: 900px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+
+   
+
+}
+.pp1 img{
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+}
+.pp1 p{
+    padding-top: 30px;
+    line-height: 1.5;
+}
+.pp2{
+    margin-left: 320px;
+     background-color: white;
+  padding: 10px;
+ margin-top: 50px;
+ width: 900px;
+height: 340px;
+border-radius: 20px;
+display: flex;
+  
+}
+.pp2 p{
+     margin-right: 0px;
+     line-height: 1.5;
+}
+.pp2 img{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin-left: 100px;
+
+}
+.hh1{
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+.active{
+    color: rgb(12, 12, 12);
+    border-bottom: 5px;
+    text-decoration: underline;
+    transform: scaleX(1.5);
+    transition-duration: 1s;
+    font-size: larger;
+}
+
