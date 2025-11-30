@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-
+background-image: url(backgrounimg.png);
+background-size: cover;
 
 }
 img{
@@ -72,6 +73,7 @@ nav ul li a:hover{
 background-size: cover;
 height: 400px;
 
+
 }
 .h1{
     font-size: 40px;
@@ -80,19 +82,21 @@ height: 400px;
     font-size:20px ;
 }
 .btn{
-    margin-top: 40px;
+   
     width: 50;
     height: 70px;
     border-radius: 70px;
-    font-size: 20px;
+    font-size: 15px;
     background-color: rgb(235, 224, 212);
+    
 }
 .btn:hover{
     cursor: pointer;
-    background-color: rgb(189, 136, 71);
-    transform: scale(1.5);
+    background-color: rgb(17, 17, 17);
+    transform: scale(1.4);
     transition-duration: 1s;
-    font-size: large;
+    font-size: 15px;
+    color: white;
 }
 footer{
     margin-top: 0px;
@@ -150,7 +154,8 @@ font-size: 25px;
     color: black;
 }
 .sect{
-  background-color: rgb(243, 247, 251);
+  background-image: url(backgrounimg.png);
+background-size: cover;
 }
 .hero2{
     align-items: center;
@@ -216,11 +221,18 @@ background-color:white;
 font-size: 20px;
 height:130px ;
 border-radius: 20px;
-padding: 2rem 1rem;
+padding: 5rem 1rem;
 margin-top: 30px;
-
+padding-top: 3rem;
 width: 700px;
 margin-left: 240px;
+}
+.hero5 p{
+    padding-bottom:15px ;
+
+}
+.hero5 h2{
+    margin-bottom: 10px;
 }
 
 .active{

@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url(backgrounimg.png);
+background-size: cover;
 }
 img{
     width: 130px;
@@ -57,6 +59,95 @@ nav ul li a:hover{
     font-size: larger;
 }
 .aisha{
-    margin-top: 100px;
+   height: 100vh;
+   align-items: center;
+gap: 20px;
+   text-align: left;
+   margin-top:50px;
+   padding: 0;
+   display: flex;
+   
+   
+   
+   
+ 
+
+ 
+ 
+
+}
+.social{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+   
+}
+.social a{
+gap: 10px;
+text-align: center;
+}
+.social p{
+    text-align: left;
+
+}
+.from{
+    background-color: antiquewhite;
+    height: 400px;
+    width: 400px;
+    font-size: large;
+    margin-left: 50px;
+    box-shadow: 0 5px 10px ;
+}
+.from strong{
+   
+   margin-left: 15px;
+   
+
+}
+.icon{
+    margin-top: 20px;
+}
+
+.from h2{
+    margin-left: 160px;
+    padding-bottom: 20px;
+}
+.from a{
+    text-decoration: none;
+    color: black;
+}
+.form{
+    background-color: antiquewhite;
+    height: 360px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0 5px 10px ;
+   
+    
+    
+}
+.form .input-box input{
+ margin-bottom: 10px;
+ width: 280px;
+ height: 25px;
+ border-style: none;
+border-bottom-style: solid;
+color: rgb(2, 2, 2);
+}
+
+.write .input-box input{
+padding-bottom: 100px;
+}
+.buton{
+   background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 90px;
+    border-style: none;
+    
+}
+.buton:hover{
+background-color: burlywood;
+transform: scale(1.2);
+transition-duration: 0.4s;
 }
 

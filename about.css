@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(grey-laptop-with-white-stationery.jpg);
+    background-image: url(backgrounimg.png);
     background-size: cover;
 }
 
@@ -59,7 +59,8 @@ nav ul li a:hover{
     color: rgb(8, 7, 7);
     font-size: 20px;
     margin-top: 80px;
-    background-color: rgb(233, 230, 230);
+
+
     height: 180vh;
 
  }
