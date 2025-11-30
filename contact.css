@@ -65,7 +65,7 @@ gap: 20px;
    text-align: left;
    margin-top:50px;
    padding: 0;
-   display: flex;
+   display: flex ;
    
    
    
@@ -85,6 +85,7 @@ gap: 20px;
 .social a{
 gap: 10px;
 text-align: center;
+
 }
 .social p{
     text-align: left;
@@ -97,6 +98,16 @@ text-align: center;
     font-size: large;
     margin-left: 50px;
     box-shadow: 0 5px 10px ;
+    flex: 1;
+    
+}
+.from img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin-left: 150px;
+   margin-top: -200px;
 }
 .from strong{
    
@@ -116,38 +127,82 @@ text-align: center;
     text-decoration: none;
     color: black;
 }
-.form{
-    background-color: antiquewhite;
-    height: 360px;
-    width: 350px;
-    padding: 20px;
-    box-shadow: 0 5px 10px ;
-   
-    
-    
-}
-.form .input-box input{
- margin-bottom: 10px;
- width: 280px;
- height: 25px;
- border-style: none;
-border-bottom-style: solid;
-color: rgb(2, 2, 2);
+/* .form{ */
+    /* background-color: antiquewhite; */
+    /* height: 360px; */
+    /* width: 350px; */
+    /* padding: 20px; */
+    /* box-shadow: 0 5px 10px ; */
+/*     */
+/*      */
+/*      */
+/* } */
+/* .form .input-box input{ */
+ /* margin-bottom: 10px; */
+ /* width: 280px; */
+ /* height: 25px; */
+ /* border-style: none; */
+/* border-bottom-style: solid; */
+/* color: rgb(2, 2, 2); */
+/* } */
+/*  */
+/* .write .input-box input{ */
+/* padding-bottom: 100px; */
+/* } */
+/* .buton{ */
+   /* background-color: antiquewhite; */
+    /* padding: 10px; */
+    /* border-radius: 90px; */
+    /* border-style: none; */
+/*      */
+/* } */
+/* .buton:hover{ */
+/* background-color: burlywood; */
+/* transform: scale(1.2); */
+/* transition-duration: 0.4s; */
+
+
+
+.form {
+  background-color: antiquewhite;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.write .input-box input{
-padding-bottom: 100px;
-}
-.buton{
-   background-color: antiquewhite;
-    padding: 10px;
-    border-radius: 90px;
-    border-style: none;
-    
-}
-.buton:hover{
-background-color: burlywood;
-transform: scale(1.2);
-transition-duration: 0.4s;
+.input-box input,
+.input-box textarea {
+  width: 280px;
+  border: none;
+  border-bottom: 2px solid #000;
+  color: #000;
+  margin-bottom: 15px;
+  font-size: 16px;
+  padding: 6px;
+  outline: none;
+  background: transparent;
 }
 
+.input-box textarea {
+  resize: none;
+  height: 80px;
+}
+
+.buton {
+  background-color: burlywood;
+  padding: 10px 25px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buton:hover {
+  background-color: #d1a774;
+  transform: scale(1.1);
+}
