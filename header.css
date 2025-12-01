@@ -125,3 +125,11 @@ font-size: 25px;
     font-size: 25px;
     color: black;
 }
+.active{
+    color: rgb(18, 18, 20);
+    border-bottom: 5px;
+    text-decoration: underline;
+    transform: scaleX(1.5);
+    transition-duration: 1s;
+    font-size: larger;
+}

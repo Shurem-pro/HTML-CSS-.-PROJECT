@@ -59,14 +59,20 @@ gap: 10px;
 margin-left: 15px;
 
 }
-.button input{
+.buut{
     color: white;
     background-color: rgb(25, 25, 24);
     font-size: 18px;
     border-radius: 20px;
-
+    width: 250px;
+    height: 40px;   
+    cursor: pointer;
+    margin-left: 80px;
 }
-.button input:hover{
+.buut:hover{
+    box-shadow: 0 5px 10px;
+    transform: scale(1.05);
+    transition-duration: 0.5s;
 
 }
 
